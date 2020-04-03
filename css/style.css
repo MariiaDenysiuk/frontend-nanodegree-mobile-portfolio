@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2);
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2);
+}
+
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -42,8 +56,3 @@ footer {
 }
 footer span { float: right; font-style: italic; }
 
-/* Smartphones (portrait) */
-@media only screen and (max-width: 480px) {
-  body { font-size: 12px;}
-  header p { padding-left: 4.5em;}
-}
